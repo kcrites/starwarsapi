@@ -2,7 +2,7 @@ import React from 'react';
 import Card from './Card';
 
 
-const CardList = ({starwars}) => {
+const CardList = ({starwars, category}) => {
 	
 	return (
 		<div>
@@ -10,7 +10,7 @@ const CardList = ({starwars}) => {
 		(<Card 
 				key={1}
 				name={ (starwars.name) ? starwars.name : starwars.title}
-				//homeworld={starwars.homeworld}
+				category={category}
 				//films={starwars.films}
 			/>)
 			}
