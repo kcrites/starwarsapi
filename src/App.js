@@ -16,36 +16,8 @@ class App extends Component {
 
   componentDidMount(){
     
-    let  randomCategory = () => {
-        let categories = [['people',87]
-                          , ['planets', 61]
-                          , ['films', 7]
-                          , ['species', 37]
-                          , ['vehicles', 39]
-                          , ['starships',37]];
-        let randomCategory = [];
-        let categoryIndex = Math.floor(Math.random() * 6);
-        randomCategory = categories[categoryIndex];
-        return randomCategory;
-      };
-
-    
-    let fetchString = () => {
-        var cat = randomCategory();
-        cat[1] = Math.floor(Math.random() * cat[1])+1;
-        var fetchString = 'https://swapi.co/api/';
-        fetchString = fetchString + cat[0] + '/' + cat[1] + '/';
-        this.setState({category: cat[0]});
-        return fetchString;
-      }
-
-    let url = fetchString();
-    
-
-      fetch(url)
-      .then(response => response.json())
-      .then(users => this.setState({starwars: users}));
  
+      this.reLoad();
     }
 
 
@@ -108,7 +80,5 @@ reLoad() {
 
 export default App;
 //
-//brought filteredStarwars down into render function
-//and changed <CardList to present filteredStarwars (results after change in search box)
 
 // <SearchBox searchchange ={(this.onSearchChange())}/>
