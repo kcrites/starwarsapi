@@ -67,7 +67,7 @@ reLoad() {
 
        return (
           <div className='tc'>
-           <h1>Star Wars</h1>
+           <h1>Star Wars API</h1>
           
            <button onClick={(e) => this.handleClick(e)}>Another</button>
            <CardList starwars={this.state.starwars} category={this.state.category}/>
