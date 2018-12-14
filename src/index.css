@@ -7,7 +7,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('./star-wars-background.jpg');
+  background-image: url('https://kcrites.github.io/starwarsapi/star-wars-background.jpg');
 }
 
 code {
