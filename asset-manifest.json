@@ -1,15 +1,15 @@
 {
-  "main.css": "/starwarsapi/static/css/main.d5029630.chunk.css",
-  "main.js": "/starwarsapi/static/js/main.d42a99b0.chunk.js",
-  "main.js.map": "/starwarsapi/static/js/main.d42a99b0.chunk.js.map",
+  "main.css": "/starwarsapi/static/css/main.ba11e7f9.chunk.css",
+  "main.js": "/starwarsapi/static/js/main.81652b78.chunk.js",
+  "main.js.map": "/starwarsapi/static/js/main.81652b78.chunk.js.map",
   "static/css/1.6767b0c6.chunk.css": "/starwarsapi/static/css/1.6767b0c6.chunk.css",
   "static/js/1.d24c1708.chunk.js": "/starwarsapi/static/js/1.d24c1708.chunk.js",
   "static/js/1.d24c1708.chunk.js.map": "/starwarsapi/static/js/1.d24c1708.chunk.js.map",
   "runtime~main.js": "/starwarsapi/static/js/runtime~main.37d37c9a.js",
   "runtime~main.js.map": "/starwarsapi/static/js/runtime~main.37d37c9a.js.map",
-  "static/css/main.d5029630.chunk.css.map": "/starwarsapi/static/css/main.d5029630.chunk.css.map",
   "static/css/1.6767b0c6.chunk.css.map": "/starwarsapi/static/css/1.6767b0c6.chunk.css.map",
+  "static/css/main.ba11e7f9.chunk.css.map": "/starwarsapi/static/css/main.ba11e7f9.chunk.css.map",
   "index.html": "/starwarsapi/index.html",
-  "precache-manifest.bf66a3a542feebc35e9f9c66c793777f.js": "/starwarsapi/precache-manifest.bf66a3a542feebc35e9f9c66c793777f.js",
+  "precache-manifest.c10f41d93200d0931e0e7ddecd3c9f98.js": "/starwarsapi/precache-manifest.c10f41d93200d0931e0e7ddecd3c9f98.js",
   "service-worker.js": "/starwarsapi/service-worker.js"
 }
